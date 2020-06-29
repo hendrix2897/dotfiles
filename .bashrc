@@ -96,6 +96,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias kitty-clean="printf '\E[H\E[3J';clear"
+alias kitty-image='kitty +kitten icat'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 
