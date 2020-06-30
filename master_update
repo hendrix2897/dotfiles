@@ -1,0 +1,29 @@
+#!/bin/bash
+echo "Run update ?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) sudo apt-get update; break;;
+        No ) exit;;
+    esac
+done
+echo "Run upgrade ?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) sudo apt-get upgrade; break;;
+        No ) exit;;
+    esac
+done
+echo "Run dist-upgrade?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) sudo apt-get dist-upgrade; break;;
+        No ) exit;;
+    esac
+done
+echo "Run cleanup?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) sudo apt-get autoclean;sudo apt-get autoremove;sudo apt-get clean; break;;
+        No ) exit;;
+    esac
+done
