@@ -1,0 +1,14 @@
+# This is a default toolbar definition file for IceWM
+#
+# Place your personal variant in $HOME/.icewm directory.
+
+prog "Files" /usr/share/icons/mini-icewm/file-manager.png pcmanfm
+prog "Kitty" /usr/share/icons/mini-icewm/kitty.png kitty
+prog "Spotify" /usr/share/icons/mini-icewm/spotify.png spotify
+prog "Skype" /usr/share/icons/mini-icewm/skypeforlinux.png skypeforlinux
+#prog "Files" file-manager.png pcmanfm
+#prog FTE fte fte
+#prog Netscape netscape netscape
+#prog    "Vim" vim /usr/bin/gvim -f
+prog    "WWW" ! firefox
+
