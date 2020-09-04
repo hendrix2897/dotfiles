@@ -9,10 +9,10 @@
 # You'll have to omit XK_ prefixs and to replace XF86XK_ prefixes by
 # XF86. Valid modifiers are Alt, Ctrl, Shift, Meta, Super and Hyper.
 #
-key "Alt+Ctrl+t"			x-terminal-emulator
+key "Alt+Ctrl+t"			xterm
 key "Alt+Ctrl+b"			sensible-browser about:blank
 key "Alt+Ctrl+s"			sensible-browser http://www.duckduckgo.com
-key "Ctrl+Shift+Tab"			kitty
+key "Ctrl+Shift+Tab"			xterm
 key "Super+KP_Subtract"			amixer sset Master 5%-
 key "Super+KP_Add"			amixer sset Master 5%+
 key "Super+l"				xscreensaver-command -lock
