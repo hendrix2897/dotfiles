@@ -95,8 +95,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias kitty-clean="printf '\E[H\E[3J';clear"
-alias kitty-image='kitty +kitten icat'
 alias speedtest='t=$(date +"%s"); wget http://speedtest.tele2.net/100MB.zip -O ->/dev/null ; echo -n "MBit/s: "; expr 8 \* 100 / $(($(date +"%s")-$t))'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
