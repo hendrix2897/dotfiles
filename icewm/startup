@@ -2,4 +2,4 @@
 sleep 1;
 nm-applet &
 xscreensaver -nosplash &
-(sleep 2 && nitrogen --restore) &
+(sleep 2 && idesk) &
