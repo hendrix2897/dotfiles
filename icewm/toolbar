@@ -4,9 +4,6 @@
 
 prog "Files" /usr/share/icons/mini-icewm/file-manager.png pcmanfm
 prog "XTerm" /usr/share/icons/mini-icewm/kitty.png xterm
-#prog "Files" file-manager.png pcmanfm
-#prog FTE fte fte
-#prog Netscape netscape netscape
 #prog    "Vim" vim /usr/bin/gvim -f
 prog    "WWW" ! firefox
 
