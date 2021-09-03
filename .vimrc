@@ -4,4 +4,4 @@ python3 powerline_setup()
 python3 del powerline_setup
 
 set laststatus=2
-colorscheme synthwave84
+colorscheme distinguished
