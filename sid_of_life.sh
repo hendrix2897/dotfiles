@@ -1,8 +1,9 @@
 #!/bin/sh
+export DEBIAN_FRONTEND=noninteractive
 USER_HOME_DIR=$(eval echo ~$USER)
 DOTFILES_URL="https://github.com/hendrix2897/dotfiles"
-rm -rf /etc/apt/sources.list
-cat <<EOF > /etc/apt/sources.list
+sudo rm -rf /etc/apt/sources.list
+sudo cat <<EOF > /etc/apt/sources.list
 # Sid and only sid
 deb https://ftp.debian.org/debian/ sid contrib main non-free non-free-firmware
 EOF
