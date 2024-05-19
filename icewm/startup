@@ -1,5 +1,5 @@
 !#/bin/bash
+volumeicon &
 sleep 1;
 nm-applet &
 xscreensaver -nosplash &
-(sleep 2 && idesk) &
