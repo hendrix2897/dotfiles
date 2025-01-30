@@ -1,0 +1,6 @@
+# Modernized from /etc/apt/sources.list
+Types: deb
+URIs: https://ftp.debian.org/debian/
+Suites: sid
+Components: contrib  main non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
