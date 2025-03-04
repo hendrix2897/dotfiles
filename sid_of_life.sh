@@ -9,7 +9,7 @@ deb https://ftp.debian.org/debian/ sid contrib main non-free non-free-firmware
 EOF
 sudo -E apt update -y
 sudo -E apt full-upgrade -y
-sudo -E apt install icewm nm-tray volumeicon-alsa lightdm vim htop neofetch build-essential bison flex libssl-dev git -y
+sudo -E apt install icewm nm-tray volumeicon-alsa xsecurelock vim htop neofetch build-essential bison flex libssl-dev git -y
 mkdir -p "$USER_HOME_DIR"/gits
 git clone "$DOTFILES_URL" "$USER_HOME_DIR"/gits/dotfiles 
 mkdir -p "$USER_HOME_DIR"/.icewm
