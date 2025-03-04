@@ -15,7 +15,7 @@ key "Alt+Ctrl+s"			sensible-browser http://www.duckduckgo.com
 key "Ctrl+Shift+Tab"			xterm
 key "Super+KP_Subtract"			amixer sset Master 5%-
 key "Super+KP_Add"			amixer sset Master 5%+
-key "Super+l"				xscreensaver-command -lock
+key "Super+l"				xsecurelock
 # "Multimedia key" bindings for Xorg. Gather the keycodes of your
 # advanced function keys by watching the output of the xev command whilest
 # pressing those keys and map those symbols by using xmodmap.
