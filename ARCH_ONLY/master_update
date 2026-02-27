@@ -1,0 +1,9 @@
+#!/bin/sh
+sudo pacman -Syyu
+orphans=$(pacman -Qdtq)
+if [ -n "$orphans" ]; then
+  sudo pacman -Rns $orphans
+else
+  echo "No orphaned packages to remove."
+fi
+sudo pacman -Sc --noconfirm
